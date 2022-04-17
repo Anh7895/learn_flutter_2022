@@ -19,8 +19,8 @@ class _LoginState extends State<LoginScreen> {
   final Color primaryColor = Colors.green;
   late FocusNode userNameFocus, passwordFocus;
 
-  final _userNameController = TextEditingController(text: 'Miichisoft');
-  final _passwordController = TextEditingController(text: 'Miichisoft');
+  final _userNameController = TextEditingController(text: 'quanganh');
+  final _passwordController = TextEditingController(text: 'quanganh');
   bool _passwordVisible = false;
   bool _isEnableButtonLogin = true;
   late LoginBloc bloc;
