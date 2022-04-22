@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter_2022/screens/learn_mi/learn/splash/splash_screen.dart';
 
 import 'catalog_model.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CatalogScreen(),
+      home: SplashScreen(),
     );
   }
 }

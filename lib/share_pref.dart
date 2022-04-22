@@ -19,6 +19,6 @@ class SharePref {
     String passwordValue = await _getString(password);
     print('accountValue $accountValue $passwordValue');
 
-    return accountValue == 'ta' && passwordValue == '12345678';
+    return accountValue == 'quang anh' && passwordValue == '1';
   }
 }

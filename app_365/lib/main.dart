@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'module/home/bloc/home_bloc.dart';
+import 'module/intro/screen/intro_screen.dart';
 import 'module/login/bloc/login_bloc.dart';
 import 'module/resgister/bloc/register_bloc.dart';
-import 'module/resgister/screen/select_city_screen.dart';
 import 'navigator/navigator_routes.dart';
 
 void main() {
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           canvasColor: Colors.transparent,
         ),
         onGenerateRoute: generateRoute,
-        home: const SelectCityScreen(),
+        home: const IntroScreen(),
       ),
     );
   }

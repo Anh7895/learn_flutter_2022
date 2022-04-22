@@ -14,7 +14,7 @@ class SplashScreen extends StatelessWidget {
     if (isLogin) {
       nextScreen = HomeScreen();
     } else {
-      nextScreen = LoginScreen();
+      nextScreen = const LoginScreen();
     }
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => nextScreen));
