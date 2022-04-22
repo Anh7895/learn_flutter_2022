@@ -38,6 +38,21 @@ dependencies:
   rxdart: ^0.27.1
   http: ^0.13.3
 
+  flutter_svg: ^0.23.0+1
+  cached_network_image: 3.1.0+1
+  fluttertoast: ^8.0.7
+  pin_code_fields: ^7.3.0
+  percent_indicator: ^3.4.0
+  image_picker: ^0.8.4+4
+  intl: ^0.17.0
+  flutter_slidable: ^0.6.0
+  dio: ^4.0.1
+
+  connectivity: ^3.0.6
+  bloc: ^7.2.1
+  flutter_bloc: ^7.3.3
+  equatable: ^2.0.3
+
 
 dev_dependencies:
   flutter_test:
@@ -60,8 +75,92 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
   assets:
     - images/
+    - assets/icons/add1.svg
+    - assets/icons/administrative.svg
+    - assets/icons/back.svg
+    - assets/icons/bag.svg
+    - assets/icons/bag_2.svg
+    - assets/icons/blackdot.svg
+    - assets/icons/building.svg
+    - assets/icons/buy.svg
+    - assets/icons/calendar.svg
+    - assets/icons/calendar1.svg
+    - assets/icons/camera.svg
+    - assets/icons/candidate1.svg
+    - assets/icons/cap.svg
+    - assets/icons/changePassword.svg
+    - assets/icons/chef.svg
+    - assets/icons/deadline.svg
+    - assets/icons/delete.svg
+    - assets/icons/delivery.svg
+    - assets/icons/diachi.svg
+    - assets/icons/dialog_tich.svg
+    - assets/icons/down_arrow.svg
+    - assets/icons/education.svg
+    - assets/icons/eye.svg
+    - assets/icons/eye_blue.svg
+    - assets/icons/eye_invisible
+    - assets/icons/favorite_border.svg
+    - assets/icons/fetterless.svg
+    - assets/icons/filter.svg
+    - assets/icons/filter_apply.svg
+    - assets/icons/Group.svg
+    - assets/icons/Group802.svg
+    - assets/icons/hoso.svg
+    - assets/icons/house.svg
+    - assets/icons/icon_phantich.svg
+    - assets/icons/Jobapplied.svg
+    - assets/icons/lamp.svg
+    - assets/icons/light.svg
+    - assets/icons/location_fill.svg
+    - assets/icons/logo.svg
+    - assets/icons/logo_1.svg
+    - assets/icons/logout.svg
+    - assets/icons/Luhan1.svg
+    - assets/icons/map.svg
+    - assets/icons/mess.svg
+    - assets/icons/method.svg
+    - assets/icons/money_bag.svg
+    - assets/icons/money_fil.svg
+    - assets/icons/payforms.svg
+    - assets/icons/pencil_fill.svg
+    - assets/icons/phone.svg
+    - assets/icons/private.svg
+    - assets/icons/quantity.svg
+    - assets/icons/rank.svg
+    - assets/icons/right_arrow.svg
+    - assets/icons/sex.svg
+    - assets/icons/shopping_cart.svg
+    - assets/icons/thienthoi.svg
+    - assets/icons/thongbao.svg
+    - assets/icons/tien.svg
+    - assets/icons/timkiem.svg
+    - assets/icons/trash.svg
+    - assets/icons/trash_fill.svg
+    - assets/icons/triangle.svg
+    - assets/icons/tym.svg
+    - assets/icons/updateinformation.svg
+    - assets/icons/use.png
+    - assets/icons/user.svg
+    - assets/icons/user_hoso.svg
+    - assets/icons/Vector.png
+    - assets/icons/vi_tri_map.svg
+    - assets/icons/view_fill.svg
+    - assets/icons/watch.svg
+    - assets/images/forgot.png
+    - assets/images/icon_add.png
+    - assets/images/intro1.png
+    - assets/images/intro2.png
+    - assets/images/intro3.png
+    - assets/images/jobhunt.png
+    - assets/images/login.png
+    - assets/images/login1.png
+    - assets/images/login2.png
+    - assets/images/logo.png
+    - assets/images/luhan.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
